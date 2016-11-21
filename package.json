@@ -1,0 +1,43 @@
+{
+  "name": "tmp.tilskudd.t-fk.no",
+  "description": "Løsning for søknader om tilskudd",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "scripts": {
+    "test": "nsp check",
+    "start": "list -s -p 8000 --path = 'public'"
+  },
+  "keywords": [
+    "tilskudd",
+    "søknadsskjema",
+    "microsite",
+    "Telemark fylkeskommune"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/tmp.tilskudd.t-fk.no.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/tmp.tilskudd.t-fk.no/issues"
+  },
+  "standard": {
+    "ignore": [
+      "public"
+    ]
+  },
+  "devDependencies": {
+    "nsp": "2.6.2"
+  },
+  "dependencies": {
+    "list": "0.8.2"
+  }
+}
