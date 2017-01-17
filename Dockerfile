@@ -4,8 +4,8 @@
 #
 ###########################################################
 
-# Setting the base to nodejs 6.9.1
-FROM mhart/alpine-node:6.9.1
+# Setting the base to nodejs 7.4.0
+FROM node:7.4.0-alpine
 
 # Maintainer
 MAINTAINER Geir Gåsodden
