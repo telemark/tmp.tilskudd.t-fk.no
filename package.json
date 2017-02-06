@@ -44,12 +44,12 @@
     "emails": false
   },
   "devDependencies": {
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "9.0.3"
+    "tap": "10.0.2"
   },
   "dependencies": {
-    "serve": "3.1.0"
+    "serve": "3.2.3"
   }
 }
