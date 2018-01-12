@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=8.1.2"
+    "node": ">=8.9.4"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -30,12 +30,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/telemark/tmp.tilskudd.t-fk.no.git"
+    "url": "git+https://github.com/telemark/tmp.tilskudd.t-fk.no.git"
   },
   "bugs": {
     "url": "https://github.com/telemark/tmp.tilskudd.t-fk.no/issues"
   },
-  "homepage": "https://github.com/telemark/tmp.tilskudd.t-fk.no",
+  "homepage": "https://github.com/telemark/tmp.tilskudd.t-fk.no#readme",
   "now": {
     "name": "tmp-tilskudd",
     "alias": [
@@ -55,12 +55,12 @@
     "emails": false
   },
   "devDependencies": {
-    "coveralls": "2.13.1",
-    "nsp": "2.6.3",
-    "standard": "10.0.2",
-    "tap": "10.7.0"
+    "coveralls": "3.0.0",
+    "nsp": "3.1.0",
+    "standard": "10.0.3",
+    "tap": "11.0.1"
   },
   "dependencies": {
-    "serve": "6.0.0"
+    "serve": "6.4.4"
   }
 }
