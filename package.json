@@ -20,7 +20,7 @@
     "setup": "npm install",
     "standard-fix": "standard --fix",
     "start": "NODE_ENV=production serve public -p 8000",
-    "now-deploy": "now public --static -n tmp-tilskudd && now alias"
+    "deploy": "now public --static --name tmp-tilskudd && now alias"
   },
   "keywords": [
     "tilskudd",
@@ -44,15 +44,12 @@
     "env": {
       "NODE_ENV": "production"
     },
-    "type": "npm"
+    "type": "static"
   },
   "standard": {
     "ignore": [
       "public"
     ]
-  },
-  "greenkeeper": {
-    "emails": false
   },
   "devDependencies": {
     "coveralls": "3.0.0",
@@ -61,6 +58,6 @@
     "tap": "11.0.1"
   },
   "dependencies": {
-    "serve": "6.4.4"
+    "serve": "6.4.8"
   }
 }
