@@ -58,6 +58,6 @@
     "tap": "12.0.1"
   },
   "dependencies": {
-    "serve": "8.1.2"
+    "serve": "8.1.3"
   }
 }
