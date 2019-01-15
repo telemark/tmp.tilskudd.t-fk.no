@@ -6,7 +6,7 @@ Temporary frontpage for tilskudd.t-fk.no
 
 Change the [index.html](public/index.html).
 
-To see the result start the development server and visit locatlhost at port 8000
+To see the result start the development server and visit localhost at port 8000
 
 ```
 $ npm run dev
