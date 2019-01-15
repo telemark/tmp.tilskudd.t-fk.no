@@ -20,7 +20,8 @@
     "standard-fix": "standard --fix",
     "start": "NODE_ENV=production serve public -p 8000",
     "deploy": "now public --static --name tmp-tilskudd && now alias",
-    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "now-build": "node --version"
   },
   "keywords": [
     "tilskudd",
