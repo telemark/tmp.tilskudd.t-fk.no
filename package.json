@@ -18,8 +18,8 @@
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "start": "NODE_ENV=production serve public -p 8000",
-    "deploy": "now public --static --name tmp-tilskudd && now alias",
+    "dev": "NODE_ENV=production serve public -p 8000",
+    "deploy": "npm test && now && now alias",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
     "now-build": "node --version"
   },
@@ -37,16 +37,6 @@
     "url": "https://github.com/telemark/tmp.tilskudd.t-fk.no/issues"
   },
   "homepage": "https://github.com/telemark/tmp.tilskudd.t-fk.no#readme",
-  "now": {
-    "name": "tmp-tilskudd",
-    "alias": [
-      "www.tilskudd.t-fk.no"
-    ],
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "type": "static"
-  },
   "standard": {
     "ignore": [
       "public"
@@ -55,9 +45,7 @@
   "devDependencies": {
     "coveralls": "3.0.2",
     "standard": "12.0.1",
+    "serve": "10.1.1",
     "tap": "12.1.1"
-  },
-  "dependencies": {
-    "serve": "10.1.1"
   }
 }
