@@ -1,8 +1,9 @@
 {
   "version": 2,
   "name": "tmp.tilskudd.t-fk.no",
+  "scope": "telemark",
   "alias": [
-    "tilskudd.tmp.service.t-fk.no"
+    "tilskudd.t-fk.no"
   ],
   "builds": [
     { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "public" } }
