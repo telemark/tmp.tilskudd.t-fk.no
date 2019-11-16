@@ -19,7 +19,7 @@
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "dev": "NODE_ENV=production serve public -p 8000",
-    "deploy": "npm test && now && now alias",
+    "deploy": "npm test && now --prod",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
     "now-build": "node --version"
   },
